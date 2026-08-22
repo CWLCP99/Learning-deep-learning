@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"from jupyter_client.kernelspec import KernelSpecManager; import json; ksm=KernelSpecManager\\(\\); specs=ksm.find_kernel_specs\\(\\); print\\(specs\\)\")",
+      "Bash(python -c ' *)",
+      "Bash(where python *)",
+      "Bash(where jupyter *)"
+    ]
+  }
+}
